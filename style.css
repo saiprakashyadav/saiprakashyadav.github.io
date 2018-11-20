@@ -1,0 +1,219 @@
+body
+{
+ padding: 0;
+}
+nav
+{
+ width: 100%;
+ background: #202c45;
+ padding: 0 40px;
+ box-sizing: border-box;
+ posion:fixed;
+}
+nav h1
+{
+ margin: 0;
+ padding: 10px 10px; 
+ float: left;
+}
+nav h1 a 
+{
+ color: #fff;
+ text-decoration: none;
+}
+nav ul
+{
+ margin: 0;
+ padding: 0; 
+ float: right;
+}
+nav ul li
+{
+ list-style:none;
+ display: inline-block;
+ padding: 20px 30px;
+ transition; 5s;
+}
+nav ul li a
+{
+ color: #fff;
+}
+nav ul li:hover
+{
+ background: #f2184f;
+}
+.responsive-bar
+{
+ width: 100%;
+ background: #202c45;
+ padding: 10px 30px;
+ box-sizing: border-box;
+ display: none;
+}
+.responsive-bar h3
+{
+ margin:0;
+ padding:3px 0;
+ color: #fff;
+ float: left;
+}
+.responsive-bar h3 a
+{
+ color: #fff;
+ text-decoration:none;
+}
+.responsive-bar h4
+{
+ margin: 0;
+ padding: 0;
+ color: #fff;
+ float:right;
+ padding: 5px 10px;
+ background: #f2184f;
+ text-transform: uppercase;
+ cursor: pointer;
+
+}
+
+.imgcorner {
+  display: block; 
+  margin:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);  
+  border-radius: 20%;
+  border: 5px solid skyblue;
+  background-position: center center;
+}
+
+.card {
+  box-shadow: .5px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 1px 1px 1px 10px;
+  background-color: none;
+  height:300px;
+  margin: 5px;
+  border: 0px solid white;
+}
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+}
+.w3-font {
+    font-family:Lobster;
+    color: brown;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; 
+}
+
+ 
+
+/* For mobile phones: */
+
+[class*="col-"] {width: 100%;}  
+
+@media only screen and (min-width:800px ) 
+{
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;} 
+}
+@media (max-width:450px)
+{
+nav
+{
+ display: none;
+ background-color: #e37682;
+}
+.responsive-bar
+{
+display: block;
+
+}
+nav h1
+{
+display: block;
+float: none;
+}
+nav ul
+{
+float: none;
+}
+nav ul li
+{
+display: block;
+text-align: center;
+background: #141e33;
+padding: 20px 20px;
+bordr-bottom: 1px solid rgba(255,255,255,1);
+
+}
+h1.brand
+{
+ display:none;
+}
+
+}
