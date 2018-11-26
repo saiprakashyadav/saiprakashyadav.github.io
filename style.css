@@ -82,7 +82,7 @@ nav ul li:hover
   background-repeat: no-repeat;
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);  
   border-radius: 50%;
-  border: 5px solid skyblue;
+  border: 4px outset #c6731a;
   background-position: center center;
 }
 
