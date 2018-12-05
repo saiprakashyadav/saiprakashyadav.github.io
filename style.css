@@ -59,7 +59,7 @@ header nav ul li ul li{
 header nav ul li a {
 	color: #fff;
 	text-decoration: none;
-	height:50px;
+	height: 50px;
 	line-height: 50px;
 	padding: 0 25px;
 	display: block;
@@ -88,7 +88,8 @@ header nav ul li a.active{
   background-repeat: no-repeat;
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);  
   border-radius: 50%;
-  border: 4px outset #c6731a;
+  border: 10px outset SILVER;
+  borde: 4px outset #c6731a;
   background-position: center center;
 }
 
@@ -96,7 +97,7 @@ header nav ul li a.active{
   box-shadow: .5px 1px 1px 1px rgba(0, 0, 0, 0.3);
   padding: 1px 1px 1px 10px;
   background-color: none;
-  height:300px;
+  height:280px;
   margin: 5px;
   border: 0px solid white;
 }
@@ -107,14 +108,16 @@ header nav ul li a.active{
     float: left;
     padding: 0px;
 }
+.lobster-font {
+    font-family:Lobster;
+    color: black;
+}
 .w3-font {
     font-family:Lobster;
     color: brown;
 }
-
-
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .fa-facebook {
@@ -201,7 +204,7 @@ header nav ul li a.active{
 		position: absolute;
 		width:100vw;
 		height: calc(100vh - 50px);
-		background-color: #333;
+		background-color: #fff;
 		top:50px;
 		left:-100%;
 		transition: 0.5s;
@@ -216,18 +219,26 @@ header nav ul li a.active{
 		text-align: center;
 	}
 
-	header nav ul li a{
-		border-bottom: 1px solid rgba(0,0,0,.7);
-	}
 
+	
 	header nav ul li.active ul{
 	    position: relative;
 	    background-color: #003e6f;
     }
-
+      header nav ul li a {
+	color: black;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 25px;
+	display: block;
+        background: #fff;
+}
     header nav ul li ul li{
     	width:100vw;
     	text-align: center;
     }
-
+header nav ul li a:hover,
+header nav ul li a.active{
+	background:#e37682;
+         transition: 0.3s;
 }
