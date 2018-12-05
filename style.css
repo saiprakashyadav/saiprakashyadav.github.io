@@ -227,8 +227,8 @@ header nav ul li a.active{
     }
       header nav ul li a {
 	color: black;
-	height: 60px;
-	line-height: 60px;
+	height: 70px;
+	line-height: 70px;
 	padding: 0 25px;
 	display: block;
         background: #fff;
