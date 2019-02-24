@@ -1408,16 +1408,17 @@ h6,
 h1,
 .h1 {
   font-size: 2.4rem;
+  font-family: lobster;
 }
 
 h2,
 .h2 {
-  font-size: 2.15rem;
+  font-size: 2.15rem; font-family: lobster;
 }
 
 h3,
 .h3 {
-  font-size: 1.75rem;
+  font-size: 1.75rem; font-family: lobster;
 }
 
 h4,
