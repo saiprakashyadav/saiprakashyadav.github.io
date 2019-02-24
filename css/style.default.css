@@ -1,10 +1,10 @@
-$color-background: #eaecfa;
-$color-loader: #ce4233;
-
 body {
-  background: $color-background;
+  background: color-background;
 }
-
+.lobster
+{
+font-family: 'Lobster';
+}
 .loader {
   width: 250px;
   height: 50px;
